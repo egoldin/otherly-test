@@ -1,15 +1,47 @@
 button,
-.btn {
+section .btn {
 	display: inline-block;
-	border-radius: 10px;
+	border-radius: 5px;
 	font-weight: bold;
-	border: 2px solid $color-primary;
 	background-color: $color-primary;
+	box-shadow: 0 4px 0 $color-secondary;
+	min-width: 200px;
+	padding: 20px;
+	text-align: center; 
+	text-transform: lowercase;
+	text-decoration: none;
+	border: none;
 	color: $color-text-light;
 	@include transition;
+	font-size: inherit;
 
 	#{$hover} {
-		background-color: $color-tertiary;
+		background-color: $color-secondary;
 		color: $color-text-dark;
+	}
+
+	.fa {
+		font-size: 20px;
+	}
+}
+
+button {
+	cursor: pointer;
+	appearance: none;
+}
+
+.slider button {
+	min-width: 0;
+	padding: 11px;
+	width: 40px;
+	height: 36px;
+
+	background-color: #a3a3a3;
+	box-shadow: 0 4px 0 #8c8c8c;
+
+	#{$hover} {
+		color: white;
+		background-color: $color-primary;
+		box-shadow: 0 4px 0 $color-primary;
 	}
 }

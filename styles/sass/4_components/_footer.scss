@@ -1,3 +1,121 @@
-footer {
-    
+
+/*
+* Footer
+*/
+
+.footer-container {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.footer-column {
+	display: block;
+	float: left;
+	padding: 48px;
+
+	span.dark {
+		display: block;
+		color: rgba(black,0.5);
+	}
+
+	&.small-text {
+		p, span {
+			font-size: 12px;
+		}
+	}
+}
+
+.footer-column-1 {
+	width: 30%;
+}
+
+.footer-column-2 {
+	width: 15%;
+}
+
+.footer-column-3 {
+	width: 25%;
+}
+
+.footer-column-4 {
+	width: 30%;
+}
+
+
+footer h3 {
+	color: white;
+	margin-bottom: 24px;
+}
+
+footer p {
+	margin-bottom: 24px;
+}
+
+.footer-brand {
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+}
+
+.footer-contact {
+	margin-top: 24px;
+}
+
+.footer-contact-type {
+	width: 60px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.footer-contact-info {
+	margin-left: 12px;
+	font-size: 18px;
+}
+
+.footer-nav li {
+	margin: 16px 0;
+}
+
+.footer-nav .fa {
+	margin-right: 6px;
+}
+
+.post {
+	clear: left;
+}
+
+.post-thumbnail-container,
+.post-content {
+	display: inline-block;
+	float: left;
+}
+
+.post-thumbnail-container {
+	width: 30%;
+	margin-bottom: 24px;
+}
+
+.post-thumbnail {
+	border-radius: 6px;
+	max-width: 80px;
+}
+
+.post-content {
+	width: 70%;
+	padding-left: 24px;
+}
+
+.post-content-excerpt {
+	margin-bottom: 6px;
+}
+
+.footer-bottom-bar {
+	padding: 18px 10%;
+	background-color: rgba(0,0,0,0.1);
+	clear: left;
+}
+
+footer .social-links-list li {
+	font-size: 18px;
 }

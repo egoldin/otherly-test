@@ -1,37 +1,35 @@
 /* HEADINGS */
 #{$headings} {
 	margin-bottom: 0.5em;
+	
+	&:not(:first-child) {
+		margin-top: 0.5em;
+	}
 }
 
 h1 {
-	font-family: $fonts-head;
-	font-size: 70px;
+	font-size: 40px;
 	color: $color-primary;
+	text-transform: lowercase;
 }
 
 h2 {
-	font-family: $fonts-head;
-	font-size: 50px;
-	color: $color-primary;
+	font-size: 21px;
+	color: $color-text-dark;
+	font-weight: bold;
 }
 
 h3 {
-	font-family: $fonts-head;
-	font-size: 34px;
-	color: $color-primary;
+	font-size: 18px;
+	color: $color-text-dark;
+	font-weight: bold;
 }
 
 h4 {
-	font-family: $fonts-main;
-	font-size: 26px;
-	color: $color-primary;
+	font-size: 16px;
+	color: $color-text-dark;
 }
 
-h5 {
-	font-family: $fonts-main;
-	font-size: 22px;
-	color: $color-primary;
-}
 
 
 /* LINKS */
@@ -48,6 +46,12 @@ a {
 
 
 /* GENERAL TEXT */
+p {
+	&:not(:last-child) {
+		margin-bottom: 1em;
+	}
+}
+
 strong {
 	font-weight: bold;
 }
@@ -56,9 +60,13 @@ em {
 	font-style: italic;
 }
 
+.primary-text {
+	color: $color-primary;
+}
+
 
 /* STYLING CLASSES */
 
-.text-center {
+.center-text {
     text-align: center;
 }

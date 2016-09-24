@@ -1,5 +1,9 @@
 form {
-
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	@include center(800px);
 }
 
 fieldset {
@@ -9,9 +13,30 @@ fieldset {
 input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
 select,
 textarea {
+	border-radius: 5px;
+	appearance: none;
+	box-shadow: none;
+	border: 1px solid #aaa;
+	display: inline-block;
+	padding: 0.5em 1em;
+	font-size: inherit;
+	margin-bottom: 20px;	
 
+	&:focus {
+		border-color: $color-primary;
+	}
 }
 
 input[type="submit"] {
-	
+	cursor: pointer;
+}
+
+input[type="text"] {
+	flex: 0 0 47.5%;
+}
+
+textarea, input[type="email"] {
+	display: block;
+	flex: 1 0 100%;
+	width: 100%;
 }

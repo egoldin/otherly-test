@@ -3,6 +3,18 @@
 // Unmodified vendor files
 @import '0_vendor/reset';
 
+/* $color-primary: #e95913;
+$color-secondary: #c64c10;
+$color-tertiary: #dffdec;
+
+$color-text: #3c3c3c;
+$color-text-dark: #000;
+$color-text-light: #fff;
+
+$color-head: $color-primary;
+$color-link: $color-primary; */
+
+
 // Variables
 @import '1_variables/general';
 @import '1_variables/colors';
@@ -29,7 +41,7 @@
 
 // Pages
 @import '5_pages/home';
-// @import '5_pages/...';
+@import '5_pages/contact';
 
 // Media
 @import '6_media/responsive';

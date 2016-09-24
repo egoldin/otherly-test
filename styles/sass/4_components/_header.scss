@@ -1,3 +1,81 @@
+/*
+* Header
+*/
+
 header {
-    
+	background-image: url('../img/city-background.png');
+	background-size: cover;
+	position: relative;
+	z-index: 9;
+}
+
+.header-overlay {
+	padding: 24px 10%;
+	display: block;
+	width: 100%;
+	background-color: rgba(233, 89, 19, 0.65);
+}
+
+.social-links-container {
+	float: right;
+}
+
+.social-links-list li {
+	display: inline;
+	font-size: 24px;
+	padding: 6px;
+
+	a {
+		color: white;
+		text-align: center;
+	}
+
+}
+
+header {
+
+	i {
+		width: 32px;
+		padding: 5px;
+		border-radius: 3px;
+	}
+
+	.fa-facebook {
+		background-color: #3b5998;
+	}
+
+	.fa-twitter {
+		background: #2caae1;
+	}
+
+	.fa-google-plus {
+		background: #e74b32;
+	}	
+
+	.fa-linkedin {
+		background: #4d9ac9;
+	}
+}
+
+.logo-container {
+	display: inline;
+	position: relative;
+	top: 80px;
+	max-width: 30%;
+}
+
+.main-nav {
+	text-align: right;
+	margin-bottom: 6px;
+}
+
+.main-nav-list li {
+	display: inline;
+	margin: 0 24px;
+	text-transform: uppercase;
+}
+
+.main-nav-list a {
+	color: black;
+	font-weight: bold;
 }

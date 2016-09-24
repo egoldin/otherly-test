@@ -2,4 +2,39 @@
 	@include center;
 }
 
+section {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
 
+	a {
+		color: $color-primary;
+		text-decoration: underline;
+	}
+}
+
+
+/* COLUMN STYLES */
+.column-wrapper {
+	display: flex;
+	justify-content: space-between;
+
+	.column {
+		flex-grow: 1;
+		&.one-third {
+			flex: 1 0 33%;			
+		}
+		&.two-thirds {
+			flex: 1 0 62%;			
+		}
+	}
+}
+
+
+/* GENERAL SLIDER STYLES */
+.slider {
+
+	img {
+		margin-right: 10px;
+	}
+}

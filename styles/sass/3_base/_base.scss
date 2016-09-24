@@ -4,4 +4,17 @@
 
 body {
     color: $color-text;
+    font-family: $fonts-main;
+}
+
+section img {
+	display: block;
+	@include center(100%);
+}
+
+.wrapper {
+   @include center($wrapper-width);
+   padding-left: 5%;
+   padding-right: 5%;
+   position: relative;
 }

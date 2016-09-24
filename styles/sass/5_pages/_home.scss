@@ -1,0 +1,67 @@
+/* About Section */
+.about {
+	border-bottom: 2px solid $color-primary;
+	background-image: url('../img/social-media.jpg');
+	background-size: cover;
+	background-position: center;
+
+	&:before {
+		content: '';
+		@include overlay(rgba(white,0.7));
+	}
+
+	img {
+		margin-right: 0;
+	}
+
+	.column:first-child {
+		margin-right: 5%;
+	}
+}
+
+/* Projects Section */
+.projects {
+	padding-bottom: 0;
+	.column {
+		padding: 10px;
+	}
+}
+
+/* Investors Section */
+.investors {
+	.section-title {
+		float: left;
+		display: flex;
+		width: calc(100% - 110px);
+		align-items: center;
+		margin-top: 0.5em;
+
+		&:before {
+			content: '';
+			background: #e1e2e2;
+			border-radius: 100%;
+			width: 6px;
+			height: 6px;
+			order: 1;
+			margin-left: 20px;
+		}
+
+		&:after {
+			content: '';
+			border-top: 1px solid #e1e2e2;
+			width: 80%;
+			float: right;
+			order: 2;
+		}
+	}
+
+	button {
+		float: right;
+		margin-bottom: 2em;
+		margin-left: 10px;
+	}
+
+	.slick-list {
+		clear: both;
+	}
+}

@@ -1,0 +1,8 @@
+### Ignore Codekit Files
+*.codekit
+!spec/*.codekit
+
+
+### Ignore SASS-CACHE Files
+*.sass-cache
+!spec/*.sass-cache

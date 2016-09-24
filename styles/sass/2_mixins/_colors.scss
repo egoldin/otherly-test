@@ -1,0 +1,12 @@
+@each $colorname, $bgcolor, $textcolor in (primary, $color-primary, $color-text-light),
+                                          (secondary, $color-secondary, $color-text),
+                                          (tertiary, $color-tertiary, $color-text-dark) {
+  .#{$colorname} {
+    background-color: $bgcolor;
+    color: $textcolor;
+
+    a {
+      color: inherit;
+    }
+  }
+}

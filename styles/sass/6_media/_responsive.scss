@@ -1,0 +1,46 @@
+/* Widescreen */
+@media only screen and (min-width: 1601px) {
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+
+}
+
+
+/* Small Screens / Tablet Landscape */
+@media only screen and (max-width: 1023px) {
+
+	h1 { font-size: 60px; }
+	h2 { font-size: 45px; }	
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Tablet Portrait / Mobile Landscape */
+@media only screen and (max-width: 767px) {
+
+	h1 { font-size: 50px; }
+	h2 { font-size: 35px; }
+	h3 { font-size: 28px; }
+
+}
+
+@media only screen and (min-width: 481px) {
+
+}
+
+
+/* Mobile Portrait */
+@media only screen and (max-width: 480px) {
+
+	h1 { font-size: 40px; }
+	h2 { font-size: 30px; }
+	h3 { font-size: 26px; }
+	h4 { font-size: 24px; }	
+	
+}

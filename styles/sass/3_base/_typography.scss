@@ -1,0 +1,64 @@
+/* HEADINGS */
+#{$headings} {
+	margin-bottom: 0.5em;
+}
+
+h1 {
+	font-family: $fonts-head;
+	font-size: 70px;
+	color: $color-primary;
+}
+
+h2 {
+	font-family: $fonts-head;
+	font-size: 50px;
+	color: $color-primary;
+}
+
+h3 {
+	font-family: $fonts-head;
+	font-size: 34px;
+	color: $color-primary;
+}
+
+h4 {
+	font-family: $fonts-main;
+	font-size: 26px;
+	color: $color-primary;
+}
+
+h5 {
+	font-family: $fonts-main;
+	font-size: 22px;
+	color: $color-primary;
+}
+
+
+/* LINKS */
+
+a {
+	text-decoration: none;
+	color: $color-link;
+	@include transition;
+
+	#{$hover} {
+
+	}
+}
+
+
+/* GENERAL TEXT */
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+
+/* STYLING CLASSES */
+
+.text-center {
+    text-align: center;
+}
